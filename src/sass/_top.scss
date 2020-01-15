@@ -1,0 +1,36 @@
+  
+#top{
+    width:$width;
+    height: 43px;
+    background: #666666;
+/**********************导航样式**********************/
+   
+    .nav{
+        @extend %box2;
+        width:  $midle-width;
+        height: $width;
+        margin:0 auto;      
+        font-size: 12px;
+          /**********导航左右两边**************/
+         ul{
+          
+            @extend %box2;
+          
+           a{
+            color: #b2b2b2;
+           } 
+           a:hover{
+            color:white;
+           }
+        }
+        
+       ul:first-child{
+        width:  430px;
+        height: $width;
+       }
+       ul:last-child{
+        width:  242px;
+        height: $width;
+       }
+    }
+}

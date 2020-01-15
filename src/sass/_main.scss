@@ -1,0 +1,34 @@
+
+main{
+    width: $midle-width;
+    background: $bg-color;
+    padding: 60px;
+
+    .pics{
+        width: $width;
+        height: 200px;
+        @extend %box2;
+        margin-bottom: 40px;
+
+        img{
+            display: block;
+            width:380px;
+            height:  $width;
+        }
+    }
+  
+}
+
+/*************电视部分样式****************/
+@import 'tv';
+/*************空调部分样式****************/
+@import 'air';
+/*************冰箱部分样式****************/
+@import 'iceBox';
+/*************洗衣机部分样式****************/
+@import 'washBox';
+/*************厨房用品部分样式****************/
+@import 'kichen';
+/*************智能家电部分样式****************/
+@import 'appcessory';
+
