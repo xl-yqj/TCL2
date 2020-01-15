@@ -37,8 +37,8 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             title: '淘宝购物车',
-            filename: "index.html",
-            template: "./src/index.html",
+            filename: "index1.html",
+            template: "./src/index1.html",
             chunks: ["index", "vendor"],
             minify: { //压缩html
                 removeComment: true, //去掉注释
@@ -88,5 +88,3 @@ module.exports = {
     ]
 
 }
-
-
